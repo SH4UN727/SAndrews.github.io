@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(135, 170, 141);
+}
+#p1 {
+    color:  purple;
+}
+#p2 {
+    color: darkred;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: azure;
+}
+#p3 {
+    color: aquamarine;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#handsome {
+       padding: 50vh 10%;
+}
+#s1 {
+    font-weight: bold;
+    color:navy;
+    font-size: 25px;
+}
+#s2 {
+    font-style: italic;
+    letter-spacing: 2px;
+}
+#s3 {
+    background-color: beige;
+}
+#s4 {
+    text-align:right;
+}
