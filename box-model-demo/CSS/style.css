@@ -1,0 +1,52 @@
+div {
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+div {
+    border: 25px dashed;
+    /*
+       Shortented margin can have up to 4 values.
+
+       One Value: Applies value to all 4 sides.
+
+       Two values: First value applies to top AND the bottom.
+       Second va.ue applies to the left AND the right.
+
+       Three Values: First value applies to the top.
+       Second value apllies to the left AND right.
+       Third value apllies to the bottom.
+
+       Four values: First value applies to top .
+       Second value applies to the right.
+       Third value applies to the bottom.
+       Fourth value applies to left.
+
+       Padding follows the same ruleset
+    */
+    margin: 25px 100px 50px;
+    padding: 25px;
+    background-color: palegoldenrod;
+    /*
+
+        Shorthand Border Radius
+
+        One Value: Apply to all corners.
+        
+        Two Values: First values applie to the  
+    top-left corner AND the bottom-right corner.  
+    The second value applies to the top-right corner  
+    AND the bottom-left corner.  
+
+    Three Values: First value applies to the top-left corner.  
+    Second value applies to the top-right AND bottom-left corner.  
+    Third value applies to the bottom-right corner.  
+
+    Four Values: First values applies to the top-left corner.  
+    Second value applies to the top-right corner.  
+    Third value applies to the bottom-right corner.  
+    Fourth value applies to the bottom-left corner.  
+*/
+    border-radius: 25px
+    
+}
