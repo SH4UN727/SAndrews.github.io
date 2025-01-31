@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+#two-columns {
+    display: flex;
+}
+#sidebar {
+    background-color: blanchedalmond;
+    width: 1000px;
+    padding: 24px;
+    border-left: 2px solid orangered;
+    padding-bottom: 1px;
+    ul {
+        list-style-type: none;
+    }
+    ul a {
+        color: orangered;
+    }
+}
+#main {
+    background-color: tan;
+    flex: 1;
+}
