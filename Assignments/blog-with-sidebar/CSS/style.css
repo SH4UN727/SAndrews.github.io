@@ -11,7 +11,7 @@ body {
 
 #two-columns {
     display: grid;
-    grid-template-columns: 1fr 500px 250px 1fr;
+    grid-template-columns: 1fr 200px 250px 1fr;
     grid-template-areas: ". content sidebar .";
 }
 #sidebar {
