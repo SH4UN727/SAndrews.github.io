@@ -1,0 +1,39 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+}
+#animagram-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-style-2 {
+    max-width: 350px;
+    margin: 20px;
+    background-color: white;
+}
+.card-style-2 img {
+    width: 100%;
+}
+.card-style-2 a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: green;
+    display: inline-block;
+    grid-template-columns: max-content 1fr;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: 15px solid green;
+    transition: background-color 1.0;
+}
