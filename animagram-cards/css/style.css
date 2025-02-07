@@ -28,7 +28,6 @@
     color: white;
     font-size: 18px;
     text-decoration: none;
-    background-color: green;
     display: inline-block;
     grid-template-columns: max-content 1fr;
     padding: 10px;
