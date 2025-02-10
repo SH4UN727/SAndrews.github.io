@@ -11,52 +11,71 @@
     max-width: 350px;
     margin: 16px;
     padding: 10px;
-    background-color: #83d475;
+    background-color: goldenrod;
     box-shadow: 4px;
-    border: 15px solid #f0d159;
-    border-radius: 5%;
+    border: 16px solid gold;
+    border-radius: 12px;
     text-align: center;
+}
+.card-style-3 .pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-style-3 .pokemon-header h2 {
+    margin: 0px;
+}
+.card-style-3 .pokemon-header .health {
+    font-size: 18px;
 }
 
 .card-style-3 img {
-    width: 90%;
-    border-image: 40%;
+    width: 100%;
+    border: 5px solid goldenrod;
 }
-.attack {
-    margin: 20px;
-}
-.pokemon-card-1 {
-    background-color: darkgreen;
-}
-img {
-    border: 5px solid #d3af37;
-}
-.pokemon-card-1 {
-    background-color: darkgreen;
-}
-.div#pokemon-card-1 {
-    background-color: darkgreen;
-}
-.details {
-    font-size: 13px;
-    background-color: gold;
-    border-radius: 5%;
-} 
-.name {
-    margin-right: 50%;
-}
-.health {
-    margin-left: 50%;
-    font-size: larger;
-}
-.bold {
+.card-style-3 .details {
+    background: linear-gradient(to right, goldenrod, gold, goldenrod);
+    font-size: 12px;
+    font-style: 12px;
+    font-family: italic;
     font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
 }
-.power {
+.card-style-3 .attack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 8px;
+    margin: 8px auto;
+    border-bottom: 2px solid black;
+    
+}
+.card-style-3 .description {
+    font-size: 14px;
+    margin: 0px 4px;
+}
+.card-style-3 .description .bold {
     font-weight: bold;
-    margin-left: 50%;
+    font-size: 18px;
 }
-.data {
-    font-size: small;
-    border: 5px solid gold ;
+.card-style-3 .power {
+    font-weight: bold;
+    font-size: 24px;
 }
+.card-style-3 .data {
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    padding: 2px 8px;
+}
+#pokemon-card-1, #pokemon-card-2 {
+    background: linear-gradient(-25deg, lightgreen, forestgreen, #90ee90);
+}
+#pokemon-card-3 {
+    background: linear-gradient(-25deg, orange, orangered, orange);
+}
+#pokemon-card-4 {
+    background: linear-gradient(-25deg, aqua, skyblue, aqua);
+}
+
