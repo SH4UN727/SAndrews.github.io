@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero-1 {
+    background-image: url(../urban-hi-res-3q76.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+#hero-1 h2 {
+    font-size: 72px;
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    color: rgb(133, 173, 108);
+}
+#hero-1 h4 {
+    font-size: 24px;
+    position: absolute;
+    right: 10%;
+    bottom: 47%;
+    color: white;
+}
+#hero-1 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+.gallery-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+}
+.gallery-layout img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
