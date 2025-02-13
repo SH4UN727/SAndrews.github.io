@@ -4,6 +4,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgba(153, 168, 181, 0.444);
+    background-image: url(../urban-20vb1.jpg);
 }
 #hero-1 {
     background-image: url(../urban-hi-res-3q76.jpg);
@@ -41,14 +43,70 @@ body {
     right: 20%;
     bottom: 41%;
 }
-.gallery-layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
-    padding: 24px;
+.portfolio-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
 }
-.gallery-layout img {
+.portfolio-gallery img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    margin-bottom: 24px;
+    border: 5px solid rgb(79, 144, 144);
+}
+#gallery-layout h1 {
+    color: white;
+
+}
+#gallery-layout a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    position: absolute;
+    right: 4%;
+    top: 95%;
+    border: 3px solid white;
+    border-radius: 10%;
+}
+.image-container {
+    display: flex;
+    background-color: rgba(255, 208, 137, 0.134);
+    border-radius: 5px;
+    border: 5px solid white ;
+    padding: 5px;
+    font-size: 80%;
+}
+.image-container h3 {
+    color: white;
+    right: auto;
+}
+.photo-card-2 {
+    max-width: 350px;
+    margin: 16px;
+    background-color: #eeffee;
+    box-shadow: 4px;
+}
+.photo-card-2 img {
+    width: 100%;
+}
+.photo-card-2 h2 {
+    margin-bottom: 12px;
+}
+.photo-card-2 a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(79, 119, 124);
+    display: inline-block;
+    grid-template-columns: max-content 1fr;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: 15px solid rgb(67, 140, 153);
+    transition: background-color 1.0;
+}
+.photo-card-2 a:hover {
+    border: 3px solid rgb(104, 144, 138) ;
+    color: rgb(103, 176, 174);
 }
