@@ -120,7 +120,7 @@ a {
 ****************************************************************************/
 
 #content-container {
-    max-width: 1000px;
+    max-width: 100px;
     margin: 0px auto;
 }
 
@@ -220,6 +220,10 @@ a {
 
 /* TODO: Add your media query code here */
 @media screen and (max-width : 768px) {
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
     #hero h1 {
         font-size: 60px;
     }
@@ -228,22 +232,17 @@ a {
     }
     #nav {
         align-items: center;
+        display: flex;
+        justify-content: center;
         margin: 5px;
         min-height: 10px;
     }
-    .three-cards {
-        margin-top: 30px;
-    }
-    
-    .two-cards {
-        align-items:flex-end;
-        margin: 48px;
+    .content-container {
+        max-width: 100%;
+        margin-left: 10px;
     }
 
     .card p {
         font-size: 10px;
-    }
-    .card img {
-        
     }
 }
