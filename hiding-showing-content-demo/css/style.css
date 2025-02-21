@@ -57,4 +57,21 @@ body {
     visibility: hidden;
 }
 #card3 .card-content {
-    transition: opacity 0.5s;}
+    transition: 
+    opacity 0.5s,
+    visibility 0.5s;
+}
+#card4 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+     opacity 0.5s,
+     visibility 0.5s,
+     transform 0.5s;
+}
+#card4:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
