@@ -87,8 +87,7 @@ h2 {
     flex: px;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 3px solid black;
-    margin: 10px;
+    margin: 120px;
     padding: 5px;
     border-radius: 20px;
     text-align: center;
