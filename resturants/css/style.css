@@ -80,7 +80,7 @@ body {
     }
 }
 #main {
-    align-items: center;
+    text-align: center;
     flex: 1;
 }
 #hero-3 {
