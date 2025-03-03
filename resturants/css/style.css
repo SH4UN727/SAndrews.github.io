@@ -49,11 +49,7 @@ body {
     color: black;
     background-color: transparent;
 }
-#main img {
-    border: 10px solid rgb(163, 43, 43);
-    border-image: linear-gradient(red, white);
-}
-#hero-4 {
+#hero {
     background-image:url("../eugene-kucheruk-TvcjBk5y0wU-unsplash.jpg");
     background-size: cover;
     background-position: center center;
@@ -62,23 +58,23 @@ body {
     justify-content: center;
     align-items: center;
 }
-#hero-4 .hero-content {
+#hero  .hero-content {
     color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 100px;
 }
-#hero-4 h2 {
+#hero h2 {
     font-size: 72px;
     margin-bottom: 36px;
     border: 5px solid white;
     padding: 5px;
 }
-#hero-4 h4 {
+#hero h4 {
     font-size: 24px;
     margin: 0px;
     border: 3px solid white;
 }
-#hero-4 a {
+#hero a {
     font-size: 14px;
     display: inline-block;
     background-image: linear-gradient(green, white);
@@ -121,7 +117,7 @@ body {
 .card-style-1 {
     max-width: 350px;
     margin: 16px;
-    background-image:linear-gradient(green, rgb(227, 99, 99));
+    background-image:linear-gradient(green, rgb(223, 207, 207));
     box-shadow: 4px;
 }
 .card-style-1 img {
@@ -147,4 +143,170 @@ body {
 .card a:hover {
     border: 3px solid rgb(252, 101, 101) ;
     color: lightgreen;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+#card-2 img {
+    border: 5px solid red s;
+}
+#main section {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width : 768px) {
+    #navbar {
+        background-image: linear-gradient(to right, rgb(199, 201, 94), rgb(35, 176, 73));
+         display: flex;
+         align-items: center;
+     }
+     #navbar a {
+         display: inline-block;
+         text-decoration: none;
+         color: white;
+         padding: 24px;
+     }
+     #navbar #logo {
+         font-size: 36px;
+         font-weight: bold;
+         margin-right: auto;
+         padding: 13px;
+         padding-bottom: 12px;
+     }
+     .dropdown-container {
+         position: relative;
+     }
+     .dropdown-menu {
+         position: absolute;
+         background-color: rgb(34, 80, 47);
+         width: 200px;
+         opacity: 0;
+         visibility: hidden;
+         transform: translateY(-16px);
+         transition: 
+         opacity 0.5
+         visibility 0.5s
+         transform 1s;
+         z-index: 1;
+     }
+     .dropdown-container:hover .dropdown-menu{
+         opacity: 1;
+         visibility: visible;
+         transform: translateY(0px);
+     }
+     #navbar .dropdown-menu a:hover {
+         color: black;
+         background-color: transparent;
+     }
+     #hero {
+         background-image:url("../eugene-kucheruk-TvcjBk5y0wU-unsplash.jpg");
+         background-size: cover;
+         background-position: center center;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     #hero  .hero-content {
+         color: rgb(255, 255, 255);
+         text-align: center;
+         padding-top: 100px;
+     }
+     #hero h2 {
+         font-size: 72px;
+         margin-bottom: 36px;
+         border: 5px solid white;
+         padding: 5px;
+     }
+     #hero h4 {
+         font-size: 24px;
+         margin: 0px;
+         border: 3px solid white;
+     }
+     #hero a {
+         font-size: 14px;
+         display: inline-block;
+         background-image: linear-gradient(green, white);
+         color: #000000;
+         text-decoration: none;
+         padding: 24px;
+         margin-top: 36px;
+         margin-right: 24px;
+         margin-left: 12px;
+     }
+     #two-columns {
+         display: flex;
+     }
+     #sidebar {
+         background-image:linear-gradient(rgb(197, 54, 54), white) ;
+         width: 120px;
+         padding: 24px;
+         border-right: 2px soild #444c94;
+         h2 {
+             border-bottom: 0.5px solid #444c94;
+             padding-bottom: 5px;
+         }
+         ul {
+             list-style-type: none;
+             padding: 0px;
+         }
+         ul a {
+             color: #ffffff;
+             text-decoration: none;
+         }
+         ul li {
+             padding: auto;
+         }
+     }
+     #main {
+         text-align: center;
+         flex: 1;
+     
+     }
+     .card-style-1 {
+         max-width: 350px;
+         margin: 16px;
+         background-image:linear-gradient(green, rgb(223, 207, 207));
+         box-shadow: 4px;
+     }
+     .card-style-1 img {
+         width: 100%;
+     }
+     .card-style-1 h2 {
+         margin-bottom: 12px;
+         color: white;
+     }
+     .card-style-1 a {
+         color: white;
+         font-size: 18px;
+         text-decoration: none;
+         background-color: rgb(57, 124, 57);
+         display: inline-block;
+         grid-template-columns: max-content 1fr;
+         padding: 10px;
+         width: 100%;
+         text-align: center;
+         border: 5px solid rgb(57, 124, 57%);
+         transition: background-color 1.0;
+     }
+     .card a:hover {
+         border: 3px solid rgb(252, 101, 101) ;
+         color: lightgreen;
+     }
+     .card-container {
+         display: flex;
+         flex-wrap: wrap;
+         align-items: flex-start;
+     }
+     #card-2 img {
+         border: 5px solid red s;
+     }
+     #main section {
+         box-sizing: border-box;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+     }
 }
